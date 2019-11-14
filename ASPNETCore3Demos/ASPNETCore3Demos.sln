@@ -11,6 +11,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SinglePageApp", "SinglePage
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RazorPages", "RazorPages\RazorPages.csproj", "{9095E281-F95A-407F-BBAE-F44BDF248F8A}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GrpcVendorMachineService", "GrpcVendorMachineService\GrpcVendorMachineService.csproj", "{007C3B66-0BAC-4079-B5B9-166D8A3E56E7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GrpcVendorMachineClient", "GrpcVendorMachineClient\GrpcVendorMachineClient.csproj", "{3190D378-33C0-46F9-8B0E-30AB016C4831}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{9095E281-F95A-407F-BBAE-F44BDF248F8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9095E281-F95A-407F-BBAE-F44BDF248F8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9095E281-F95A-407F-BBAE-F44BDF248F8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{007C3B66-0BAC-4079-B5B9-166D8A3E56E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{007C3B66-0BAC-4079-B5B9-166D8A3E56E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{007C3B66-0BAC-4079-B5B9-166D8A3E56E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{007C3B66-0BAC-4079-B5B9-166D8A3E56E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3190D378-33C0-46F9-8B0E-30AB016C4831}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3190D378-33C0-46F9-8B0E-30AB016C4831}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3190D378-33C0-46F9-8B0E-30AB016C4831}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3190D378-33C0-46F9-8B0E-30AB016C4831}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option csharp_namespace = "GrpcVendorMachineService";
+
+package vendormachine;
+
+// The greeting service definition.
+service Orderer {
+  // Sends a greeting
+  rpc PlaceOrder (OrderRequest) returns (PlaceOrderReply);
+}
+
+// The request message containing the user's name.
+message OrderRequest {
+  string message = 1;
+}
+
+// The response message containing the greetings.
+message PlaceOrderReply {
+  string message = 1;
+}
+

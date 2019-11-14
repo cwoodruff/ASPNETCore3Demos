@@ -1,0 +1,124 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Protobuf Include="Protos\vendorMachine.proto" GrpcServices="Server" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Grpc.AspNetCore" Version="2.25.0" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.0.0" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.0.0">
+          <PrivateAssets>all</PrivateAssets>
+          <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <_ResolveComReferenceCache Remove="obj\Debug\netcoreapp3.0\GrpcVendorMachineService.csproj.ResolveComReference.cache" />
+      <_ResolveComReferenceCache Remove="obj\Debug\netcoreapp3.0\GrpcVendorMachineService.csproj.ResolveComReference.cache" />
+      <_ResolveComReferenceCache Remove="obj\Debug\netcoreapp3.0\GrpcVendorMachineService.csproj.ResolveComReference.cache" />
+      <_ResolveComReferenceCache Remove="obj\Debug\netcoreapp3.0\GrpcVendorMachineService.csproj.ResolveComReference.cache" />
+      <_ResolveComReferenceCache Remove="obj\Debug\netcoreapp3.0\GrpcVendorMachineService.csproj.ResolveComReference.cache" />
+      <_ResolveComReferenceCache Remove="obj\Debug\netcoreapp3.0\GrpcVendorMachineService.csproj.ResolveComReference.cache" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <IntermediateAssembly Remove="obj\Debug\netcoreapp3.0\GrpcVendorMachineService.dll" />
+      <IntermediateAssembly Remove="obj\Debug\netcoreapp3.0\GrpcVendorMachineService.dll" />
+      <IntermediateAssembly Remove="obj\Debug\netcoreapp3.0\GrpcVendorMachineService.dll" />
+      <IntermediateAssembly Remove="obj\Debug\netcoreapp3.0\GrpcVendorMachineService.dll" />
+      <IntermediateAssembly Remove="obj\Debug\netcoreapp3.0\GrpcVendorMachineService.dll" />
+      <IntermediateAssembly Remove="obj\Debug\netcoreapp3.0\GrpcVendorMachineService.dll" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <_DebugSymbolsIntermediatePath Remove="obj\Debug\netcoreapp3.0\GrpcVendorMachineService.pdb" />
+      <_DebugSymbolsIntermediatePath Remove="obj\Debug\netcoreapp3.0\GrpcVendorMachineService.pdb" />
+      <_DebugSymbolsIntermediatePath Remove="obj\Debug\netcoreapp3.0\GrpcVendorMachineService.pdb" />
+      <_DebugSymbolsIntermediatePath Remove="obj\Debug\netcoreapp3.0\GrpcVendorMachineService.pdb" />
+      <_DebugSymbolsIntermediatePath Remove="obj\Debug\netcoreapp3.0\GrpcVendorMachineService.pdb" />
+      <_DebugSymbolsIntermediatePath Remove="obj\Debug\netcoreapp3.0\GrpcVendorMachineService.pdb" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <_DeploymentManifestEntryPoint Remove="obj\Debug\netcoreapp3.0\GrpcVendorMachineService.dll" />
+      <_DeploymentManifestEntryPoint Remove="obj\Debug\netcoreapp3.0\GrpcVendorMachineService.dll" />
+      <_DeploymentManifestEntryPoint Remove="obj\Debug\netcoreapp3.0\GrpcVendorMachineService.dll" />
+      <_DeploymentManifestEntryPoint Remove="obj\Debug\netcoreapp3.0\GrpcVendorMachineService.dll" />
+      <_DeploymentManifestEntryPoint Remove="obj\Debug\netcoreapp3.0\GrpcVendorMachineService.dll" />
+      <_DeploymentManifestEntryPoint Remove="obj\Debug\netcoreapp3.0\GrpcVendorMachineService.dll" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ApplicationManifest Remove="obj\Debug\netcoreapp3.0\GrpcVendorMachineService.dll.manifest" />
+      <ApplicationManifest Remove="obj\Debug\netcoreapp3.0\GrpcVendorMachineService.dll.manifest" />
+      <ApplicationManifest Remove="obj\Debug\netcoreapp3.0\GrpcVendorMachineService.dll.manifest" />
+      <ApplicationManifest Remove="obj\Debug\netcoreapp3.0\GrpcVendorMachineService.dll.manifest" />
+      <ApplicationManifest Remove="obj\Debug\netcoreapp3.0\GrpcVendorMachineService.dll.manifest" />
+      <ApplicationManifest Remove="obj\Debug\netcoreapp3.0\GrpcVendorMachineService.dll.manifest" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <DeployManifest Remove="obj\Debug\netcoreapp3.0\GrpcVendorMachineService.application" />
+      <DeployManifest Remove="obj\Debug\netcoreapp3.0\GrpcVendorMachineService.application" />
+      <DeployManifest Remove="obj\Debug\netcoreapp3.0\GrpcVendorMachineService.application" />
+      <DeployManifest Remove="obj\Debug\netcoreapp3.0\GrpcVendorMachineService.application" />
+      <DeployManifest Remove="obj\Debug\netcoreapp3.0\GrpcVendorMachineService.application" />
+      <DeployManifest Remove="obj\Debug\netcoreapp3.0\GrpcVendorMachineService.application" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ClsidMap Remove="obj\Debug\netcoreapp3.0\GrpcVendorMachineService.clsidmap" />
+      <ClsidMap Remove="obj\Debug\netcoreapp3.0\GrpcVendorMachineService.clsidmap" />
+      <ClsidMap Remove="obj\Debug\netcoreapp3.0\GrpcVendorMachineService.clsidmap" />
+      <ClsidMap Remove="obj\Debug\netcoreapp3.0\GrpcVendorMachineService.clsidmap" />
+      <ClsidMap Remove="obj\Debug\netcoreapp3.0\GrpcVendorMachineService.clsidmap" />
+      <ClsidMap Remove="obj\Debug\netcoreapp3.0\GrpcVendorMachineService.clsidmap" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <RegFreeComManifest Remove="obj\Debug\netcoreapp3.0\GrpcVendorMachineService.X.manifest" />
+      <RegFreeComManifest Remove="obj\Debug\netcoreapp3.0\GrpcVendorMachineService.X.manifest" />
+      <RegFreeComManifest Remove="obj\Debug\netcoreapp3.0\GrpcVendorMachineService.X.manifest" />
+      <RegFreeComManifest Remove="obj\Debug\netcoreapp3.0\GrpcVendorMachineService.X.manifest" />
+      <RegFreeComManifest Remove="obj\Debug\netcoreapp3.0\GrpcVendorMachineService.X.manifest" />
+      <RegFreeComManifest Remove="obj\Debug\netcoreapp3.0\GrpcVendorMachineService.X.manifest" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <RazorIntermediateAssembly Remove="obj\Debug\netcoreapp3.0\GrpcVendorMachineService.Views.dll" />
+      <RazorIntermediateAssembly Remove="obj\Debug\netcoreapp3.0\GrpcVendorMachineService.Views.dll" />
+      <RazorIntermediateAssembly Remove="obj\Debug\netcoreapp3.0\GrpcVendorMachineService.Views.dll" />
+      <RazorIntermediateAssembly Remove="obj\Debug\netcoreapp3.0\GrpcVendorMachineService.Views.dll" />
+      <RazorIntermediateAssembly Remove="obj\Debug\netcoreapp3.0\GrpcVendorMachineService.Views.dll" />
+      <RazorIntermediateAssembly Remove="obj\Debug\netcoreapp3.0\GrpcVendorMachineService.Views.dll" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <_RazorDebugSymbolsIntermediatePath Remove="obj\Debug\netcoreapp3.0\GrpcVendorMachineService.Views.pdb" />
+      <_RazorDebugSymbolsIntermediatePath Remove="obj\Debug\netcoreapp3.0\GrpcVendorMachineService.Views.pdb" />
+      <_RazorDebugSymbolsIntermediatePath Remove="obj\Debug\netcoreapp3.0\GrpcVendorMachineService.Views.pdb" />
+      <_RazorDebugSymbolsIntermediatePath Remove="obj\Debug\netcoreapp3.0\GrpcVendorMachineService.Views.pdb" />
+      <_RazorDebugSymbolsIntermediatePath Remove="obj\Debug\netcoreapp3.0\GrpcVendorMachineService.Views.pdb" />
+      <_RazorDebugSymbolsIntermediatePath Remove="obj\Debug\netcoreapp3.0\GrpcVendorMachineService.Views.pdb" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <_RazorComponentDeclarationAssembly Remove="obj\Debug\netcoreapp3.0\RazorDeclaration\GrpcVendorMachineService.dll" />
+      <_RazorComponentDeclarationAssembly Remove="obj\Debug\netcoreapp3.0\RazorDeclaration\GrpcVendorMachineService.dll" />
+      <_RazorComponentDeclarationAssembly Remove="obj\Debug\netcoreapp3.0\RazorDeclaration\GrpcVendorMachineService.dll" />
+      <_RazorComponentDeclarationAssembly Remove="obj\Debug\netcoreapp3.0\RazorDeclaration\GrpcVendorMachineService.dll" />
+      <_RazorComponentDeclarationAssembly Remove="obj\Debug\netcoreapp3.0\RazorDeclaration\GrpcVendorMachineService.dll" />
+      <_RazorComponentDeclarationAssembly Remove="obj\Debug\netcoreapp3.0\RazorDeclaration\GrpcVendorMachineService.dll" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Database\" />
+      <Folder Include="Domain\Applications\" />
+    </ItemGroup>
+
+</Project>
